@@ -1,0 +1,209 @@
+@media (min-width:320px){
+  body{
+    background-color: #488c4665;
+    display: flex;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .data{
+    font-size: 12px;
+    color: #488C46;
+  }
+  
+  
+  
+  .container{
+    background-color: #ffffff;
+    max-width: 300px;
+    width: 100%;  
+    padding: 25px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.179) 3px 7px 20px 1px;
+  }
+  
+  .containerGeral{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%; 
+    align-items: center;
+  }
+  
+  .containerFormulario{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .containerFormulario h1{
+    color: #488C46;
+    margin: 0;
+  }
+  .containerFormulario input{
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8fbfe;;
+    outline-color: #488C46;
+    border: #e4e4e4 1px solid ;
+    color:#488C46;
+    border-radius: 4px;
+  }
+  
+  
+  .containerFormulario button{
+    background-color: #488C46;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerFormulario button:hover{
+    filter: brightness(1.08);
+  }
+  
+  
+  .containerImagem{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+  }
+  
+  .containerImagem img{
+    width: 100%;   
+  }
+  
+  .containerFormulario{
+    color: #488C46;
+  }
+  .resultado{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 25px; 
+    padding: 5px;
+  }
+  
+  .resultado h2{
+    margin: 0;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+   
+  }
+  
+  
+  .resultado p{
+    font-size: 15px;
+    color: #5867ae;
+    margin: 0;
+  }
+  
+  .bolinha{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #abaixoDoPeso{
+    border: #5867ae 5px solid;
+    background-color:white ;
+    border-radius: 50%;
+  }
+  
+  #PesoNormal{
+    border: #84bf5a 5px solid;
+    background-color:white ; 
+    border-radius: 50%;
+  }
+  
+  #Sobrepeso{
+    border:#f1e627 5px solid;
+    background-color:white ; 
+  
+    border-radius: 50%;
+  }
+  
+  #obesidade1{
+    border: #e06e1c 5px solid;
+    background-color:white ; 
+  
+    border-radius: 50%;
+  }
+  
+  #obesidade2{
+    border: #ec6419 5px solid;
+    background-color:white ; 
+   
+    border-radius: 50%;
+  }
+  
+  #obesidade3{
+    border: #9a1915 5px solid;
+    background-color:white ; 
+   
+    border-radius: 50%;
+  }
+  
+  .bolinha img{
+    width: 85%; 
+   
+  }
+  
+  
+  .abaixoDoPeso{
+  
+    color:#5867ae ;
+   
+  }
+  
+  .PesoNormal{
+    
+    color:#84bf5a ; 
+    
+  }
+  
+  .Sobrepeso{
+    
+    color:#f1e627; 
+  
+   
+  }
+  
+  .obesidade1{
+   
+  color:#e06e1c ; 
+  
+  
+  }
+  
+  .obesidade2{
+   
+    color:#ec6419;
+   
+    
+  }
+  
+  .obesidade3{  
+   color:#9a1915 ;
+   
+  }
+}
+
